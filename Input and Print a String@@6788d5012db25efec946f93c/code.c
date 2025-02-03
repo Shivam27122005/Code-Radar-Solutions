@@ -3,6 +3,6 @@
 int main(){
     char str[100];
     scanf("%99s", &str);
-    printf("You entered:%s"str);
+    printf("You entered:%s",str);
     return0;
 }
