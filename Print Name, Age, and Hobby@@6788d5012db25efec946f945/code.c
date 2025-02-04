@@ -9,8 +9,8 @@ int main(){
     sanf("%d",age);
     scanf("%s"hobby );
 
-    printf("name: %s\n",name);
-    printf("age:%d\n",age);
-    printf("hobby:%s\n"hobby,);
+    printf("name: %s\n", name);
+    printf("age:%d\n", age);
+    printf("hobby:%s\n", hobby);
     return 0;
 }
