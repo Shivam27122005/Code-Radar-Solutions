@@ -11,6 +11,6 @@ int main(){
 
     printf("name: %s\n",name);
     printf("age:%d\n",age);
-    printf("hobby:%s"hobby,);
+    printf("hobby:%s\n"hobby,);
     return 0;
 }
