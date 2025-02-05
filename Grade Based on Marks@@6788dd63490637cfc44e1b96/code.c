@@ -9,7 +9,7 @@ int main() {
         printf("B\n");
     }else if (marks >=70 && marks<80){
         printf("C/n");
-    }else if (marks>=60 && marks<50){
+    }else if (marks>=60 && marks<70){
         printf("D/n");
     }else{
         printf("F/n");
