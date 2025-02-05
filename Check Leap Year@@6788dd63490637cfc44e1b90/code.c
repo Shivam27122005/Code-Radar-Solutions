@@ -2,13 +2,13 @@
 
  
 int main() {
-    int Year;
+    int year;
     scanf("%d", &Year);
 
-    if((Year % 4 ==0 && Year % 100 != 0) || (Year % 400 == 0)){
-        printf("%d is a Leap Year.\n", Year);
+    if((year % 4 ==0 && year % 100 != 0) || (year % 400 == 0)){
+        printf("%d is a Leap Year.\n", year);
     }else{
-        printf("%d is Not a Leap Year.\n",Year);
+        printf("%d is Not a Leap Year.\n",year);
     }
     return 0;
 }
