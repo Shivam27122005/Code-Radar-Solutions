@@ -3,7 +3,6 @@
  
 int main() {
     int Year;
-    printf("Enter a Year: ");
     scanf("%d", &Year);
 
     if((Year % 4 ==0 && Year % 100 != 0) || (Year % 400 == 0)){
