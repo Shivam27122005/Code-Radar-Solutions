@@ -3,12 +3,12 @@
  
 
 int main() {
-    int num;
+    int num,i, isPrime=1;
     scanf("%d", &num);
-    if(num%num==0 && num%1==0){
+    if(num<=1){
         printf("Prime\n");
     }else{
-        printf("Not Prime\n")
+        printf("Not Prime\n");
 
     }
     return 0;
