@@ -5,4 +5,4 @@
     int num1,num2,ORoperation;
     scanf("%d%d",&num1,&num2);
     ORoperation = (num1 | num2);
-    printf("bitwise OR operation: %d\n",ORoperation);
+    printf("Bitwise OR operation result : %d\n", ORoperation);
