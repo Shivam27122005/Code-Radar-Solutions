@@ -18,7 +18,7 @@ int main(){
             break;
         }
         case 4:{
-            printf("Thrusday\n");
+            printf("Thursday\n");
             break;
         }
         case 5:{
