@@ -33,7 +33,7 @@ int main(){
             break;
         } default:{
             printf("Invalid\n");
-            break;
+            
         }
     }
     return 0;
