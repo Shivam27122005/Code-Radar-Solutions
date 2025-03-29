@@ -11,7 +11,14 @@ long long factorial(int n) {
 
 // Function to print factorials in the given range
 void factorialRange(int start, int end) {
-    if (start >= end || start < 0 || end < 0) {
+    // Swap values if start > end
+    if (start > end) {
+        int temp = start;
+        start = end;
+        end = temp;
+    }
+
+    if (start < 0 || end < 0) {
         printf("Invalid range\n");
         return;
     }
