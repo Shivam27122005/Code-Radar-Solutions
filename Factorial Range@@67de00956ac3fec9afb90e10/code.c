@@ -1,7 +1,3 @@
-// Your code here...
-#include <stdio.h>
-
-// Function to calculate factorial
 long long factorial(int n) {
     if (n == 0 || n == 1) {
         return 1;
@@ -13,26 +9,14 @@ long long factorial(int n) {
     return result;
 }
 
-// Function to print factorials in a range
-void print_factorials() {
-    int start, end;
-    printf("Enter the start value: ");
-    scanf("%d", &start);
-    printf("Enter the end value: ");
-    scanf("%d", &end);
-    
-    if (start < 0 || end < 0) {
-        printf("Start and end must be non-negative integers.\n");
+// Function to print factorials in the given range
+void factorialRange(int start, int end) {
+    if (start >= end || start < 0 || end < 0) {
+        printf("Invalid range\n");
         return;
     }
-    
-    for (int num = start; num <= end; num++) {
-        printf("Factorial of %d: %lld\n", num, factorial(num));
-    }
-}
 
-// Main function
-int main() {
-    print_factorials();
-    return 0;
+    for (int num = start + 1; num <= end; num++) {
+        printf("%lld\n", factorial(num));
+    }
 }
